@@ -36,7 +36,7 @@
 #include "api/graphchi_context.hpp"
 
 namespace graphchi {
-    
+    //all the apps should inherit this class. 
     template <typename VertexDataType_, typename EdgeDataType_,
                 typename vertex_t = graphchi_vertex<VertexDataType_, EdgeDataType_> >
     class GraphChiProgram {
